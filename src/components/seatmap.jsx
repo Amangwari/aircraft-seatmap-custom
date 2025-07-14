@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SeatLegend } from './seatLegent';
+import { SeatLegend } from './seatLegend';
 
 const SeatMap = ({ seats = [], onBook }) => {
   const [selectedSeat, setSelectedSeat] = useState(null);
